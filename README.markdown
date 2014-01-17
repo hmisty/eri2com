@@ -21,7 +21,7 @@ The origination of all the contents completely belong to the original authors.
 
 ## Powered By
 
-[hexo](https://github.com/tommy351/hexo/)
-[Github Pages](http://github.com)
+ * [hexo](https://github.com/tommy351/hexo/)
+ * [Github Pages](http://github.com)
 
 2013 Evan Liu Qingyan
