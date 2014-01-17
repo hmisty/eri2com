@@ -96,4 +96,5 @@ markdown:
 # Deployment
 ## Docs: http://zespia.tw/hexo/docs/deployment.html
 deploy:
-  type:
+  type: github
+  repository: https://liuconsulting@github.com/liuconsulting/liuconsulting.github.io.git
