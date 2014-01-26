@@ -3,16 +3,16 @@
 ## Source: https://github.com/tommy351/hexo/
 
 # Site
-title: 创业工程
-subtitle: All About Start-Up Engineering
-description:
+title: 2号工程研究所
+subtitle: Enginering Research Institute 2
+description: Start-Up Engineering, Internet Engineering, High Performance Web, High Scalability
 author: Evan Liu
 email: 
 language:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://liuconsulting.com
+url: http://eri2.com
 root: /
 permalink: :year/:month/:day/:title/
 tag_dir: tags
@@ -97,4 +97,4 @@ markdown:
 ## Docs: http://zespia.tw/hexo/docs/deployment.html
 deploy:
   type: github
-  repository: https://liuconsulting@github.com/liuconsulting/liuconsulting.github.io.git
+  repository: https://eri2@github.com/eri2/eri2.github.io.git
