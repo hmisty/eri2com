@@ -1,6 +1,6 @@
 ## liuconsulting.com
 
-Here are source codes of my site [http://liuconsulting.com](http://liuconsulting.com).
+Here are source codes of [Engineering Research Institute 2](http://eri2.com).
 
 ## How-To
 
