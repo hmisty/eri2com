@@ -2,10 +2,6 @@
 ## Docs: http://zespia.tw/hexo/docs/configuration.html
 ## Source: https://github.com/tommy351/hexo/
 
-## Weibo
-weibo_metaid: c5d9158f9bfbf030
-weibo_appkey: 1149472951
-
 # Site
 title: 第2工程研究所
 subtitle: Enginering Research Institute 2
@@ -78,7 +74,11 @@ per_page: 10
 pagination_dir: page
 
 # Disqus
-disqus_shortname: 
+disqus_shortname: eri2
+
+# Weibo
+weibo_metaid: c5d9158f9bfbf030
+#weibo_appkey: 1149472951
 
 # Extensions
 ## Plugins: https://github.com/tommy351/hexo/wiki/Plugins

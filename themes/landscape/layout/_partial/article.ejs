@@ -50,12 +50,6 @@
   <% } %>
 </article>
 
-<% if (!index && post.comments && config.weibo_appkey){ %>
-<section id="comments">
-  <wb:comments url="auto" border="n" fontsize="14" width="auto" appkey="<%= config.weibo_appkey %>"></wb:comments>
-</section>
-<% } %>
-
 <% if (!index && post.comments && config.disqus_shortname){ %>
 <section id="comments">
   <div id="disqus_thread">
@@ -63,3 +57,10 @@
   </div>
 </section>
 <% } %>
+
+<% if (!index && post.comments && config.weibo_appkey){ %>
+<section id="comments">
+  <wb:comments url="auto" border="n" fontsize="14" width="auto" appkey="<%= config.weibo_appkey %>"></wb:comments>
+</section>
+<% } %>
+
