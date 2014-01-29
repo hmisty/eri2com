@@ -78,7 +78,7 @@ disqus_shortname: eri2
 
 # Weibo
 weibo_metaid: c5d9158f9bfbf030
-#weibo_appkey: 1149472951
+weibo_appkey: 1149472951
 
 # Extensions
 ## Plugins: https://github.com/tommy351/hexo/wiki/Plugins
