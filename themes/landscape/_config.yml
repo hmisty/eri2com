@@ -18,7 +18,8 @@ widgets:
 - recent_posts
 
 # Miscellaneous
-google_analytics:
+google_analytics: UA-7092935-8
+google_analytics_site: eri2.com
 favicon: /favicon.ico
 twitter:
 google_plus:
