@@ -1,6 +1,6 @@
 title: 建设高流量网站的22个建议
 date: 2014-02-02 17:55:58
-tags: 网站工程
+tags: web
 ---
 
 Ashwanth Fernando在13/12/16发表于High Scalability的这篇文章对于正在考虑建立高流量网站的创业者颇有借鉴意义。兹摘译如下。
@@ -53,7 +53,7 @@ Ashwanth Fernando在13/12/16发表于High Scalability的这篇文章对于正在
 
 ### 如果使用Oracle，考虑使用Data Guard或者Golden Gate
 
-【Evan/hmisty注：略】
+【青焱注：略】
 
 ### 考虑在数据库前面增加一个数据访问层
 
@@ -114,7 +114,7 @@ Ashwanth Fernando在13/12/16发表于High Scalability的这篇文章对于正在
 
 对于跨数据中心的负载均衡，建议使用会话粘性。这是因为数据库——Oracle或者Cassandra在跨数据中心同步时只能采用最终一致(eventual consistency)技术。
 
-【Evan/hmisty注：最终一致意味着数据同步是有延迟的。GSLB最好把同一用户最近的连续请求都路由给同一个服务方，以避免在用户端出现数据不一致的情况。】
+【青焱注：最终一致意味着数据同步是有延迟的。GSLB最好把同一用户最近的连续请求都路由给同一个服务方，以避免在用户端出现数据不一致的情况。】
 
 一定要使用GSLB。你的CDN多数情况下会有基于本地性的GSLB方案来做数据中心负载均衡。
 
@@ -182,7 +182,7 @@ UUID: true
 
 使用CDN供应静态内容——javascript, 图片, css等。CDN能够非常高效地复制静态内容到靠近客户的地方，从而极大缩短了用户请求这些静态内容的物理距离。
 
-【Evan/hmisty注：考虑和计算一下光速的极限吧。】
+【青焱注：考虑和计算一下光速的极限吧。】
 
 ### 把javascript打包到一个文件里并压缩
 

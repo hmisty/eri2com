@@ -1,6 +1,6 @@
 title: 笔耕不辍，哪怕没有读者
 date: 2014-02-01 12:53:05
-tags: 杂谈工程
+tags: freetalk
 ---
 
 Nathan Marz有一篇著名的博文，题目是[You should blog even if you have no readers](http://nathanmarz.com/blog/you-should-blog-even-if-you-have-no-readers.html)，说的是作为科技从业者和创业者，必须坚持写作，哪怕没有读者。
