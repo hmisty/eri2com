@@ -1,0 +1,57 @@
+<% var post = page %>
+<h2><%= post.title %></h2>
+<%- post.content %>
+
+<div class="tagline" style="padding:60px 0">
+
+<div class="tag_list">
+<% if (post.tags && post.tags.length){ %>
+<%- list_tags(post.tags, { show_count: false }) %>
+<% } %>
+</div>
+
+<!-- JiaThis Button BEGIN -->
+<div class="jiathis_style" style="float:right">
+  <span class="jiathis_txt">分享到：</span>
+  <a class="jiathis_button_tools_1"></a>
+  <a class="jiathis_button_tools_2"></a>
+  <a href="http://www.jiathis.com/share?uid=902598" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank">更多</a>
+  <a class="jiathis_counter_style"></a>
+</div>
+<script type="text/javascript">
+var jiathis_config = {data_track_clickback:'true'};
+</script>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=902598" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+
+</div>
+
+<% if (config.disqus_shortname){ %>
+<script>
+  var disqus_shortname = '<%= config.disqus_shortname %>';
+  <% if (page.permalink){ %>
+  var disqus_url = '<%= page.permalink %>';
+  <% } %>
+  (function(){
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//go.disqus.com/<% if (page.comments){ %>embed.js<% } else { %>count.js<% } %>';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
+<div id="comments">
+  <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+</div>
+<% } %>
+
+<% if (config.weibo_appkey){ %>
+<script id="wbcomment" src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js?appkey=<%= config.weibo_appkey %>" type="text/javascript" charset="utf-8"></script>
+<div id="comments">
+  <wb:comments url="auto" border="n" fontsize="14" width="auto" appkey="<%= config.weibo_appkey %>"></wb:comments>
+</div>
+<% } %>
+

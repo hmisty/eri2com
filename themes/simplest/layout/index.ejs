@@ -1,0 +1,9 @@
+<h2><%= config.title %></h2>
+<ul class="idx">
+  <% page.posts.each(function(post){ %>
+  <li><a href="<%- config.root %><%- post.path%>"><%= post.title %></a></li>
+  <% }) %>
+</ul>
+
+<p>微信公众号：eri2com。使用微信扫描以下二维码即可立刻关注。</p>
+<img src="img/wx.jpg"/>
