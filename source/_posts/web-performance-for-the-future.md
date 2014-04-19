@@ -1,6 +1,6 @@
 title: 面向未来的高性能网站
 date: 2014-02-02 16:09:51
-tags: web
+tags: [fy, web]
 ---
 
 Steve Souders从2003年左右开始研究web性能，这里是他关于这个话题的一些分享。

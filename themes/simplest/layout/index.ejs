@@ -1,7 +1,29 @@
 <h2><%= config.title %></h2>
+<h3>原创：</h3>
 <ul class="idx">
   <% page.posts.each(function(post){ %>
+  <% var tags = {}; post.tags.each(function(t) { tags[t.name] = 1 }) %>
+  <% if (!("zz" in tags) && !("fy" in tags)) { %>
   <li><a href="<%- config.root %><%- post.path%>"><%= post.title %></a></li>
+  <% } %>
+  <% }) %>
+</ul>
+<h3>翻译：</h3>
+<ul class="idx">
+  <% page.posts.each(function(post){ %>
+  <% var tags = {}; post.tags.each(function(t) { tags[t.name] = 1 }) %>
+  <% if ("fy" in tags) { %>
+  <li><a href="<%- config.root %><%- post.path%>"><%= post.title %></a></li>
+  <% } %>
+  <% }) %>
+</ul>
+<h3>转载：</h3>
+<ul class="idx">
+  <% page.posts.each(function(post){ %>
+  <% var tags = {}; post.tags.each(function(t) { tags[t.name] = 1 }) %>
+  <% if ("zz" in tags) { %>
+  <li><a href="<%- config.root %><%- post.path%>"><%= post.title %></a></li>
+  <% } %>
   <% }) %>
 </ul>
 
