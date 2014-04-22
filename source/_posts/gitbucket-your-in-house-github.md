@@ -1,6 +1,6 @@
 title: GitBucket——你自己的github
 date: 2014-02-11 23:09:30
-tags: SCM
+tags: [fy, SCM]
 ---
 
 GitBucket是一个比较适合小团队自用的源码管理工具，高仿github。使用Scala语言写就，以一个war包的形式发布，可以很方便的部署到tomcat/jetty/glassfish容器中，开箱即用。
