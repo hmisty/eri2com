@@ -3,7 +3,7 @@ layout: post
 title: "Stream Data Analytics Course: Syllabus"
 date: 2013-09-05 23:12
 comments: true
-categories: sdac data
+tags: [sdac, data]
 ---
 
 _Fall 2013, Oct X - Dec X ?_

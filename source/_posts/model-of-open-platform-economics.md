@@ -3,7 +3,7 @@ layout: post
 title: "Model of Open Platform Economics"
 date: 2009-02-17 11:38
 comments: true
-categories: business
+tags: business
 ---
 # 开放平台的经济模型
 

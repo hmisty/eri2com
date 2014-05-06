@@ -21,13 +21,13 @@ In the Big Data category, topics in fields of Data Analytics, Data Warehouse, Ma
 
 * {[svm4p][svm4p]} [Support Vector Machine for Programmers][svm4p] (article series)
 
-[svm4p]: {{root_url}}/categories/svm4p
+[svm4p]: {{root_url}}/tags/svm4p
 
 In the Clojure Programming category, topics on quicklojure distribution, clojure web development, etc will be covered.
 
 * {[cljweb][cljweb]} [Clojure Web Programming][cljweb] (article series)
 
-[cljweb]: {{root_url}}/categories/cljweb
+[cljweb]: {{root_url}}/tags/cljweb
 
 
 ## Business Watch
@@ -46,7 +46,7 @@ In the Clojure Programming category, topics on quicklojure distribution, clojure
   * Project 7: [Happy New Year](https://github.com/hmisty/adc_happynewyear)
   * Project 8: [My Journey](https://github.com/hmisty/adc_myjourney)
 
-[sdac]: {{root_url}}/categories/sdac
+[sdac]: {{root_url}}/tags/sdac
 
 ## Software
 * [quicklojure: yet another clojure distribution]({{root_url}}/2013/08/19/quicklojure)

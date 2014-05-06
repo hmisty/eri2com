@@ -3,7 +3,7 @@ layout: post
 title: "Storm Starter Minimum"
 date: 2013-09-07 01:10
 comments: true
-categories: data storm clojure starter
+tags: [data, storm, clojure, starter]
 ---
 
 Here introduces how to start develop on [storm](http://storm-project.net/) the real-time computation system, or stream data processing framework, with minimum effort.

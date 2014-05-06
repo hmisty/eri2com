@@ -3,8 +3,8 @@
 <h3>原创：</h3>
 <ul class="idx">
   <% page.posts.each(function(post){ %>
-  <% var cat = {}; post.categories.each(function(c) { cat[c.name] = 1 }) %>
-  <% if (!("zz" in cat)) { %>
+  <% var tag = {}; post.tags.each(function(c) { tag[c.name] = 1 }) %>
+  <% if (!("zz" in tag)) { %>
   <li><a href="<%- config.root %><%- post.path%>"><%= post.title %></a></li>
   <% } %>
   <% }) %>
@@ -12,12 +12,12 @@
 <h3>转载：</h3>
 <ul class="idx">
   <% page.posts.each(function(post){ %>
-  <% var cat = {}; post.categories.each(function(c) { cat[c.name] = 1 }) %>
-  <% if ("zz" in cat) { %>
+  <% var tag = {}; post.tags.each(function(c) { tag[c.name] = 1 }) %>
+  <% if ("zz" in tag) { %>
   <li><a href="<%- config.root %><%- post.path%>"><%= post.title %></a></li>
   <% } %>
   <% }) %>
 </ul>
 
 <p style="margin-top:40px;">微信公众号：eri2com。使用微信扫描以下二维码即可立刻关注。</p>
-<img src="img/wx.jpg"/>
+<img src="/img/wx.jpg"/>

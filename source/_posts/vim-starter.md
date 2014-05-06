@@ -1,6 +1,6 @@
 title: VIM Starter
 date: 2013-09-30 21:01:00
-categories: vim
+tags: vim
 ---
 
 In this article, you will learn how to:

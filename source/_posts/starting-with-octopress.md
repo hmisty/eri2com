@@ -3,7 +3,7 @@ layout: post
 title: "Starting With Octopress"
 date: 2013-08-07 22:57
 comments: true
-categories: starter
+tags: starter
 #published: false
 ---
 

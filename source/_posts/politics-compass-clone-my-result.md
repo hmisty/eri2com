@@ -3,7 +3,7 @@ layout: post
 title: "Politics Compass Clone: My Result"
 date: 2013-09-06 00:33
 comments: true
-categories: misc
+tags: misc
 ---
 
 Just took weiming bbs's clone of the politics compass test and here's my result below.

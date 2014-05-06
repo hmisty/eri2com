@@ -3,7 +3,7 @@ layout: post
 title: "Apps Are New Productivity"
 date: 2013-08-08 10:06
 comments: true
-categories: business
+tags: business
 ---
 
 # App就是新生产力

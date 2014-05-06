@@ -3,7 +3,7 @@ layout: post
 title: "Seven Golden Rules Of Innovating Mobile Apps"
 date: 2012-05-11 08:54
 comments: true
-categories: business
+tags: business
 ---
 
 # 移动创新七大黄金法则

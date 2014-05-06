@@ -3,7 +3,7 @@ layout: post
 title: "Newsletter 10.02"
 date: 2010-03-08 10:58
 comments: true
-categories: business
+tags: business
 ---
 
 # 10年2月开放平台实验室简报

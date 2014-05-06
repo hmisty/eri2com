@@ -3,7 +3,7 @@ layout: post
 title: "Support Vector Machine for Programmers part 2"
 date: 2013-08-15 18:43
 comments: true
-categories: data svm4p
+tags: [data, svm4p]
 ---
 # SVM for Programmers, part 2
 

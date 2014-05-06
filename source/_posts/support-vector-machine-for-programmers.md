@@ -3,7 +3,7 @@ layout: post
 title: "Support Vector Machine For Programmers"
 date: 2013-08-12 23:01
 comments: true
-categories: data svm4p
+tags: [data, svm4p]
 ---
 
 # Preface

@@ -3,7 +3,7 @@ layout: post
 title: "Quicklojure: Yet Another Clojure Distribution"
 date: 2013-08-19 22:51
 comments: true
-categories: clojure
+tags: clojure
 ---
 
 The truth is that there is no *really* something called the clojure distribution. In fact clojure is just a java library packaged as a jar file.

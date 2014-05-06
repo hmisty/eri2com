@@ -3,7 +3,7 @@ layout: post
 title: "Open API"
 date: 2008-09-27 14:11
 comments: true
-categories: business
+tags: business
 ---
 # 开放API
 
