@@ -3,8 +3,8 @@
 <h3>原创：</h3>
 <ul class="idx">
   <% page.posts.each(function(post){ %>
-  <% var tag = {}; post.tags.each(function(c) { tag[c.name] = 1 }) %>
-  <% if (!("zz" in tag)) { %>
+  <% var cat = {}; post.categories.each(function(c) { cat[c.name] = 1 }) %>
+  <% if (!("zz" in cat)) { %>
   <li><a href="<%- config.root %><%- post.path%>"><%= post.title %></a></li>
   <% } %>
   <% }) %>
@@ -12,8 +12,8 @@
 <h3>转载：</h3>
 <ul class="idx">
   <% page.posts.each(function(post){ %>
-  <% var tag = {}; post.tags.each(function(c) { tag[c.name] = 1 }) %>
-  <% if ("zz" in tag) { %>
+  <% var cat = {}; post.categories.each(function(c) { cat[c.name] = 1 }) %>
+  <% if ("zz" in cat) { %>
   <li><a href="<%- config.root %><%- post.path%>"><%= post.title %></a></li>
   <% } %>
   <% }) %>
