@@ -1,6 +1,6 @@
 title: Estimating with Tee Shirt Sizes
 date: 2014-04-22 14:10:15
-tags: zz
+categories: zz
 ---
 
 按：这篇文章提出了一个敏捷开发中估计工作任务大小的“不精确”但比较不纠结的方法。

@@ -1,6 +1,6 @@
 title: 中国移动与高校合作开发“医疗大数据”系统
 date: 2014-04-20 00:16:40
-tags: [zz, news]
+categories: zz
 ---
 
 来源： 中国新闻网

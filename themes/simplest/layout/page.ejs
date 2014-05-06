@@ -1,0 +1,13 @@
+<h2><%= page.title %></h2>
+<%- page.content %>
+
+<p style="margin-top:40px;">Scan the QR and share the article (扫描二维码分享本文):</p>
+<script type="text/javascript">  
+thisURL = document.URL;  
+strwrite = 
+"<img src='http://chart.googleapis.com/chart?cht=qr&chs=150x150&choe=UTF-8&chld=L|4&chl="
+ + thisURL + "' width='320' height='320' alt='该网址URL二维码' />"; 
+document.write( strwrite );  
+</script> 
+
+<p><%= page.date %></p>

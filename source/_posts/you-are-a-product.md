@@ -1,6 +1,6 @@
-title: 你是一件产品
+title: 【译】你是一件产品
 date: 2014-01-30 01:02:42
-tags: [fy, freetalk]
+categories: freetalk
 ---
 
 Storm的作者Nathan Marz在他2010年的一篇博客中阐述了程序员应该注意marketing自己的思想。摘译以飨诸位。

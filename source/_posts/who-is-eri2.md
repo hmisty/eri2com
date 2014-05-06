@@ -1,6 +1,6 @@
 title: 关于创业工程研究所
 date: 2014-01-25 13:20:15
-tags: freetalk
+categories: freetalk
 ---
 
 创业工程研究所，又名第2工程研究所(ERI2, Engineering Research Institute 2)。 聚焦于启动一个崭新的互联网、移动互联网项目所需要关注的工程技术方面最具挑战性的问题。

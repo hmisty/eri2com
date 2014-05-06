@@ -1,6 +1,6 @@
 title: PatientSafe——iPod touch录入/检索病历，获2000万美元融资
 date: 2014-04-06 14:34:51
-tags: zz
+categories: zz
 ---
 
 说到移动医疗，现在个人健康应用或手机端的询医社区开始多了起来，另一方面，医院和医护人员同样需要移动端的解决方案。PatientSafe就为医护人员服务，它的 PatientTouch 产品能让帮助医护人员提高病历记录 / 检索和组间协作的效率。它刚获得 2000 万的 C 轮融资，由制药巨头 Merck 的GHI基金领投。

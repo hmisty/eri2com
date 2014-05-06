@@ -1,6 +1,6 @@
-title: 建设高流量网站的22个建议
+title: 【译】建设高流量网站的22个建议
 date: 2014-02-02 17:55:58
-tags: [fy, web]
+categories: [fy, web]
 ---
 
 Ashwanth Fernando在13/12/16发表于High Scalability的这篇文章对于正在考虑建立高流量网站的创业者颇有借鉴意义。兹摘译如下。

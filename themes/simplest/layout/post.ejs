@@ -1,5 +1,5 @@
 <% var post = page %>
-<p><%= post.date %></p>
+<p>创业工程研究所 (网站 <a href="http://eri2.com">eri2.com</a> | 微信公众号 eri2com | 微博关注 @刘青焱 )</p>
 <h2><%= post.title %></h2>
 <%- post.content %>
 
@@ -11,7 +11,7 @@
 <% } %>
 </div>
 
-<p style="margin-top:40px;">扫描下面的二维码，立即和你的好友分享这篇文章：</p>
+<p style="margin-top:40px;">Scan the QR and share the article (扫描二维码分享本文):</p>
 <script type="text/javascript">  
 thisURL = document.URL;  
 strwrite = 
@@ -19,3 +19,5 @@ strwrite =
  + thisURL + "' width='320' height='320' alt='该网址URL二维码' />"; 
 document.write( strwrite );  
 </script> 
+
+<p><%= post.date %></p>
